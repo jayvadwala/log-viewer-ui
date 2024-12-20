@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Modern JavaScript
+      "module": "ESNext",                       // Use ES modules
+      "strict": true,                           // Enable strict type-checking
+      "esModuleInterop": true,                  // Import compatibility
+      "skipLibCheck": true,                     // Skip library type checks
+      "forceConsistentCasingInFileNames": true, // Enforce file name casing
+      "jsx": "react-jsx",                       // JSX support for React
+      "moduleResolution": "Node",              // Resolve modules like Node.js
+      "baseUrl": "./",                          // Base URL for imports
+      "outDir": "./dist",                       // Output directory
+      "sourceMap": true                         // Generate source maps
+    },
+    "include": ["src/**/*"],                    // Include all source files
+    "exclude": ["node_modules"]                 // Exclude dependencies
+}
+  
